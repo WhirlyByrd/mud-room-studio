@@ -1,0 +1,16 @@
+# Composer-managed dependencies — regenerate with `composer install`
+/vendor/
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+
+# Drupal-generated / user-uploaded content — not code
+/web/sites/default/files/
+
+# Local Drupal settings that may contain machine-specific or secret values
+/web/sites/default/settings.local.php
+
+# Common OS/editor clutter
+.DS_Store
+*.log
