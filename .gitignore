@@ -5,6 +5,9 @@
 /web/themes/contrib/
 /web/profiles/contrib/
 
+# Node-managed dependencies — regenerate with `npm install`
+node_modules/
+
 # Drupal-generated / user-uploaded content — not code
 /web/sites/default/files/
 
@@ -14,3 +17,6 @@
 # Common OS/editor clutter
 .DS_Store
 *.log
+
+*storybook.log
+storybook-static

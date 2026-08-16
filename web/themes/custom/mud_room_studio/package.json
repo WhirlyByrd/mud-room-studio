@@ -1,10 +1,34 @@
 {
-  "name": "mud_room_studio",
-  "private": true,
+  "name": "mud-room-studio",
+  "version": "1.0.0",
+  "description": "A fictional pottery, painting, and glass studio website - a portfolio project built on Drupal 11.",
+  "main": "index.js",
   "scripts": {
-    "livereload": "livereload --exclusions node_modules/ --exts 'css,js,twig,theme,apng,avif,gif,jpg,jpeg,jfif,pjpeg,pjp,png,svg,webp'"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WhirlyByrd/mud-room-studio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WhirlyByrd/mud-room-studio/issues"
+  },
+  "homepage": "https://github.com/WhirlyByrd/mud-room-studio#readme",
   "devDependencies": {
-    "livereload": "^0.9.3"
+    "storybook": "^10.5.8",
+    "@storybook/html-vite": "^10.5.8",
+    "@chromatic-com/storybook": "latest",
+    "@storybook/addon-vitest": "^10.5.8",
+    "@storybook/addon-a11y": "^10.5.8",
+    "@storybook/addon-docs": "^10.5.8",
+    "vitest": "latest",
+    "playwright": "latest",
+    "@vitest/browser-playwright": "latest",
+    "@vitest/coverage-v8": "latest"
   }
 }
